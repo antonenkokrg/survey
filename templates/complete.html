@@ -1,0 +1,5 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Thank you for completing our survey <br><b>{{ survey.title }}</b></h1>
+<p>{{ session['RESPONSES_KEY'] }}</p>
+{% endblock %}
